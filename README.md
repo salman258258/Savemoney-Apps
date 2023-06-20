@@ -1,2 +1,2 @@
-# Banser
-Aplikasi bank dengan fitur fitur mendasar seperti transfer dan meminjam. 
+# Savemoney
+Aplikasi pencatat keuangan dengan cara pemakaian yang mudah. 

@@ -3,8 +3,15 @@ class Keuangan:
         self.data_pemasukan = []
         self.data_pengeluaran = []
 
-    def tambah_pemasukan(self, pemasukan):
+      def tambah_pemasukan(self, pemasukan):
         self.data_pemasukan.append(pemasukan)
+        def add_income(income_list, income_desc_list):
+            print("=== PEMASUKAN ===")
+            income = float(input("Masukkan pemasukan : Rp."))
+            income_desc = input("Keterangan : ")
+            income_list.append(income)
+            income_desc_list.append(income_desc)
+            print("Income added successfully!")
 
     def tambah_pengeluaran(self, pengeluaran):
         self.data_pengeluaran.append(pengeluaran)
